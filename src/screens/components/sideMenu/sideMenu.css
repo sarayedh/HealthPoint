@@ -1,0 +1,74 @@
+.sidemenu-container {
+    padding: 10;
+    border : 1px solid #ddd;
+}
+.sidebar-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px;
+  }
+  .pro-sidebar{
+      color: #000;
+      font-weight: 400;
+  }
+  .pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 18px;
+}
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item > div > ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  .pro-sidebar > .pro-sidebar-inner {
+      background: #fff;
+  }
+.pro-sidebar .pro-menu {
+    border-bottom: 2px solid #f1f1f1;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+    color: #DA1F3D;
+}
+  .sidebar-btn {
+    padding: 1px 15px;
+    border-radius: 40px;
+    background: #eee;
+    color: #adadad;
+    text-decoration: none;
+    margin: 0 auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper{
+      background: rgba(233,30,99, 0.1);
+  }
+  .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-icon-wrapper .pro-icon{
+      color :  #DA1F3D;
+  }
+  .pro-sidebar .pro-inner-list-item ul > .pro-inner-item > .pro-icon-wrapper .pro-icon{
+    height:0.5em;
+    width:0.5em;
+}
+  .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item{
+    background-color: #fff
+  }
+  .sidebar-btn span {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .pro-sidebar .pro-inner-list-item ul .pro-menu-item {
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    color:#555;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.pro-sidebar .pro-inner-list-item ul .pro-menu-item:hover{
+    background: #eee;
+}

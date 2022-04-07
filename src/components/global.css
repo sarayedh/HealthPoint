@@ -1,0 +1,6 @@
+.dropdown-toggle{
+    box-shadow: none !important;
+}
+.dropdown-toggle::after {
+display: none !important;
+}
